@@ -1,0 +1,4 @@
+// Load books
+export const LOAD_BOOK_REQUEST = 'LOAD_BOOK_REQUEST'
+export const LOAD_BOOK_SUCCESS = 'LOAD_BOOK_SUCCESS'
+export const LOAD_BOOK_FAILURE = 'LOAD_BOOK_FAILURE'
