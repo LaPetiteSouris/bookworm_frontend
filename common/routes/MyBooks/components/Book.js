@@ -4,9 +4,8 @@ import { Grid, Row, Col } from 'react-bootstrap'
 const Book = ({ book }) => (
   <Grid>
     <Row className="show-grid">
-      <Col md={4}><code>&lt;{'Col md={4}'} /&gt;</code>{book.author}</Col>
-      <Col md={4}><code>&lt;{'Col md={4}'} /&gt;</code>{book.description}</Col>
-      <Col md={4}><code>&lt;{'Col md={4}'} /&gt;</code></Col>
+      <Col md={4}>{book.author}</Col>
+      <Col md={4}>{book.description}</Col>
     </Row>
   </Grid>
 )
